@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Growvy</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    @media only screen and (min-width: 320px) and (max-width: 428px) {
+     
+      #page1-content {
+        position: relative;
+        left: 10vw;
+      }
+      #page1-content h1 {
+        position: relative;
+        /* top: 3vh; */
+        left: 21vw;
+        font-size: 6rem;
+        line-height: 5rem;
+      }
+
+      #page1-content #growvy-img {
+        position: relative;
+        left: 62vw;
+        width: 82vw;
+        height: 356px;
+        top: -1vh;
+      }
+      #page1-content #with {
+        position: relative;
+        top: -110vh;
+        left: 157vw;
+    }
+      #page1-content #intro {
+        position: relative;
+        top: -138vh;
+        left: 4vw;
+        text-align: left;
+        
+      }
+      #page1-content #oval-img {
+        position: relative;
+        top: -161vh;
+        left: 4vw;
+        width: 166vw;
+                height: 132vw;
+      }
+      #page1-content button {
+        position: relative;
+    top: -140vh;
+    left: 3vw;
+    width: 69vw;
+      }
+      #page2 {
+        position: relative;
+        top: 49vh;
+        width: 133vw;
+        left: 48vw;
+      }
+
+      #page2 #line {
+        position: relative;
+        top: 120vh;
+        left: 81vw;
+        width: 80vw;
+      }
+      /* JOBS SECTION  */
+
+      #page3 #JS-btn {
+        position: relative;
+        width: 50vw;
+        top: 159vh;
+      }
+      #page3 #JS-btn a {
+        text-decoration: none;
+        color: #fff;
+      }
+      #page3 #EM-btn {
+        position: relative;
+        width: 40vw;
+      }
+
+      #js-details {
+        position: relative;
+        top: 90vh;
+        text-align: center;
+        left: 58vw;
+        width: 107vw;
+      }
+      #JS-img {
+        position: relative;
+        top: 129vh;
+        left: 83vw;
+        width: 55vh;
+        height: 68vh;
+      }
+      #page3 #JS-head {
+        position: relative;
+        top: 159vh;
+        text-align: center;
+        left: 9vw;
+        line-height: 3rem;
+      }
+      #page3 #JS-p {
+        position: relative;
+        top: 159vh;
+        left: 1vw;
+        width: 119vw;
+      }
+
+      #EM-img {
+        position: relative;
+        top: 175vh;
+        left: 64vw;
+        width: 100vw;
+        height: 69vh;
+      }
+
+      #page3 #EM-head {
+        position: relative;
+        top: 180vh;
+        left: 65vw;
+        text-align: center;
+      }
+
+      #page3 #EM-p {
+        position: relative;
+        top: 180vh;
+        left: 43vw;
+        text-align: center;
+        width: 137vw;
+      }
+
+      #page3 #EM-btn {
+        height: 9vh;
+        position: relative;
+        top: 180vh;
+        left: 84vw;
+        width: 61vw;
+        padding: 2px 2px;
+      }
+      #page3 #EM-btn a {
+        text-decoration: none;
+        color: #fff;
+      }
+      #page3 #EC-head {
+        position: relative;
+        top: 246vh;
+        left: 70vw;
+        text-align: center;
+      }
+      #page3 #EC-p {
+        position: relative;
+        top: 244vh;
+        left: 51vw;
+        text-align: center;
+        width: 142vw;
+      }
+      #page3 #EC-img {
+        position: relative;
+        top: 115vh;
+        left: 53vw;
+        width: 78vh;
+        height: 69vh;
+      }
+      #page3 #EC-btn {
+        position: relative;
+        top: 242vh;
+        left: 92vw;
+        width: 61vw;
+        padding: 2px 2px;
+      }
+      #page3 #BS-head {
+        position: relative;
+        top: 172vh;
+        left: 64vw;
+        text-align: center;
+      }
+      #page3 #BS-p {
+        position: relative;
+        top: 174vh;
+        left: 53vw;
+        text-align: center;
+        width: 130vw;
+      }
+      #page3 #BS-img {
+        position: relative;
+        top: 172vh;
+        left: 58vw;
+        width: 80vh;
+        height: 76vh;
+      }
+      #page3 #BS-btn {
+        top: 172vh;
+        left: 83vw;
+        width: 61vw;
+        height: 10vh;
+        padding: 2px 2px;
+      }
+
+      /* JOIN GROWVY SECTION  */
+      #page4 h1 {
+        position: relative;
+        width: 154vw;
+        top: 189vh;
+        left: 51vw;
+        text-align: center;
+      }
+      #page4 button {
+        position: relative;
+        top: 188vh;
+        left: 93vw;
+        height: 9vh;
+        width: 61vw;
+        padding: 2px 2px;
+      }
+      #page4 p {
+        width: 120vw;
+        text-align: center;
+        position: relative;
+        left: 66vw;
+        top: 188vh;
+      }
+
+      /* ZIG ZAG ARROW  */
+      #arrow-img {
+        position: relative;
+        top: 171vh;
+        left: 72vw;
+        width: 122vw;
+        padding: 2px 2px;
+      }
+
+      /* E-COMMERCE OWNER SECTION */
+
+      #ECO-img {
+        position: relative;
+        top: 96vh;
+        left: 45vw;
+        width: 157vw;
+        padding: 2px 2px;
+      }
+      #page5 h1 {
+        position: relative;
+        top: 144vh;
+        left: 39vw;
+        width: 172vw;
+        padding: 2px 2px;
+      }
+      #page5 #ECO-para {
+        position: relative;
+        top: 221vh;
+        left: 56vw;
+        width: 130vw;
+        text-align: center;
+        padding: 2px 2px;
+      }
+      #page5 #ECO-btn {
+        position: relative;
+        top: 220vh;
+        left: 93vw;
+        width: 55vw;
+        height: 8vh;
+        padding: 2px 2px;
+    }
+
+      /* SCHEDULE NOW SECTION */
+      #page6 button {
+        position: relative;
+        top: 100vh;
+        left: 131vw;
+        width: 71vw;
+        height: 10vh;
+      }
+
+      #page6 p {
+        position: relative;
+        top: 148vh;
+        left: 65vw;
+        text-align: center;
+        width: 112vw;
+      }
+      #page6 img {
+        position: relative;
+        top: 155vh;
+                  left: 7vw;
+        text-align: center;
+      }
+
+      /* FOOTER SECTION  */
+      .footer {
+        display: flex;
+        flex-direction: column;
+      }
+      .footer .left-section {
+        position: relative;
+        top: 42vh;
+        text-align: center;
+        left: 80vw;
+      
+      }
+      .footer .social-icons {
+        left: 16vh;
+        top: 28vw;
+      }
+
+      .footer .middle-section {
+        position: relative;
+        top: 27vh;
+        left: -8vw;
+      }
+      .stars {
+        left: 115vw;
+        top: -20vh;
+      }
+      .right-section img {
+        left: 152vw;
+        top: -29vh;
+      }
+    }
+
+    @media only screen and (min-width:600px) and (max-width:720px){
+  
+      #page1-content h1{
+        top: 10vh;
+        /* width: 3vw */
+        padding-right :12vw ;
+      }
+      #page1-content #with{
+        top: -91vh;
+        left: 47vw;
+      }
+      #page1-content img{
+        width: 70vw;
+        height: 56vh;
+        left: -9vw;
+        top: -131vh;
+    }
+     
+#page1-content #intro{
+  top: -119vh;
+  left: -3vw;
+
+}
+#page1-content button{
+  width: 33vw;
+  top: -120vh;
+}
+#page1-content #growvy-img{
+  top: -50vh;
+        left: 18vw;
+        width: 56vw;
+}
+#page2 #line{
+  width: 36vw;
+
+}
+#page2 p{
+  width: 136vw;
+  left: 3vw;
+
+}
+#js-details #JS-head{
+top: 151vh;
+line-height: 2.7rem;
+}
+#js-details #JS-p{
+  top: 150vh;
+        width: 69vw;
+}
+
+#js-details #JS-btn{
+  top: 150vh;
+  width: 35vw;
+}
+
+#JS-img{
+  top: 149vh;
+        left: 28vw;
+        width: 38vw;
+}
+
+#page3 #EM-head{
+  top: 146vh;
+        line-height: 2.7rem;
+        right: -21vw;
+}
+#page3 #EM-p{
+  top: 146vh;
+        width: 58vw;
+        left: 22vw;
+}
+
+#page3 #EM-btn{
+  top: 144vh;
+        width: 36vw;
+        height: 8vw;
+        left: 21vw;
+}
+
+#page3 #EM-img{
+  top: 149vh;
+        left: 13vw;
+        width: 46vw;
+}
+
+#page3 #EC-head{
+  top: 146vh;
+        line-height: 2.7rem;
+        right: -21vw;
+}
+#page3 #EC-p{
+  top: 146vh;
+        width: 58vw;
+        left: 8vw;
+}
+
+#page3 #EC-btn{
+  top: 144vh;
+        width: 36vw;
+        height: 8vw;
+        left: 8vw;
+}
+
+#page3 #EC-img{
+  top: 139vh;
+        left: 20vw;
+        width: 46vw;
+}
+
+/* business */
+#page3 #BS-head{
+  top: 146vh;
+        line-height: 2.7rem;
+        right: -21vw;
+}
+#page3 #BS-p{
+  top: 146vh;
+        width: 58vw;
+        left: 22vw;
+}
+
+#page3 #BS-btn{
+  top: 144vh;
+        width: 36vw;
+        height: 8vw;
+        left: 21vw;
+}
+
+#page3 #BS-img{
+  top: 139vh;
+        left: 13vw;
+        width: 46vw;
+}
+#page4 h1{
+  top: 150vh;
+        width: 101vw;
+        text-align: center;
+        left: 20vw;
+    }
+
+    #page4 p{
+      top: 149vh;
+        width: 71vw;
+        text-align: center;
+        left: 32vw;
+    }
+    #page4 button{
+      width: 23vw;
+      top: 147vh;
+      left: 55vw;
+    }
+
+    #arrow-img{
+      top: 129vh;
+      width: 67vw;
+      left: 43vw;
+    }
+    #page5 h1{
+      width: 91vw;
+        top: 107vh;
+        left: 27vw;
+    }
+    #page5 img{
+      width: 67vw;
+        left: -13vw;
+        top: 119vh;
+    }
+    #page5 p{
+      text-align: center;
+        width: 67vw;
+        top: 172vh;
+        left: 32vw;  
+    }
+    #page5 button{
+      height: 11vh;
+        width: 23vw;
+        top: 170vh;
+        left: 55vw;
+    }
+    #page5 button a{
+      height: 11vh;
+      width: 23vw;
+    }
+    #page5 button:hover{
+      background-color: #20cb26;
+      transition: 0.2s ease-in;
+    }
+
+    #page6 img{
+      top: 163vh;
+
+    }
+
+    #page6 button{
+      height: 10vh;
+        top: 116vh;
+        left: 78vw;
+    }
+    #page6 p{
+      top: 155vh;
+        text-align: center;
+        left: 23vw;
+    }
+
+
+    .footer{
+      top: 165vh;
+    }
+  .footer .left-section #instagram i{
+    left: 0.3rem;
+    top: 0.23rem;
+  }
+  }
+
+  </style>
+  <body>
+    <div id="page1">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./jobs.html">Jobs</a></li>
+          <li><a href="./success.html">Success</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+        </ul>
+      </nav>
+      <div id="page1-content">
+        <h1>
+          Maximize <br />
+          business efficiency <br /><span>Growvy</span>
+        </h1>
+        <img src="./images/header-side-img.png" alt="" id="growvy-img" />
+        <p id="with">with</p>
+        <img src="./images/oval.png" id="oval-img" alt="" />
+        <p id="intro">
+          Scale your comapny with <br />
+          tailored strategies, market <br />
+          insights, and experts consulting
+        </p>
+        <button>
+          <a href="./pricing.html">Start Today</a>
+        </button>
+      </div>
+    </div>
+    <div id="page2">
+      <div id="line"></div>
+      <p>
+        “Growvy is built to streamline hiring, optimize assets, and drive
+        business <br />
+        growth. Our mission is to create a tech-driven ecosystem where <br />
+        companies hire smarter, manage resources efficiently, and scale <br />
+        effortlessly. Whether you're seeking top talent, asset solutions, or
+        business <br />
+        expansion, Growvy is your trusted partner in success.”
+      </p>
+    </div>
+    <div id="page3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <div id="js-details">
+              <h1 id="JS-head">I'm a Job Seeker!</h1>
+              <p id="JS-p">
+                Looking for job according to my <br />
+                skills and requirements.
+              </p>
+              <button id="JS-btn"><a href="./jobs.html">Jobs</a></button>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="./images/2.png" alt="" id="JS-img" />
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="./images/3.png" alt="" id="EM-img" />
+          </div>
+          <div class="col-sm-6">
+            <h1 id="EM-head">I'm an Employeer!</h1>
+            <p id="EM-p">
+              Looking for talented candidates for <br />
+              my company.
+            </p>
+            <button id="EM-btn"><a href="./jobs.html">Post a Job</a></button>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1 id="EC-head">I'm an E-Commerce <br />Store!</h1>
+            <p id="EC-p">
+              Looking for potential sales data for <br />
+              sales campaign.
+            </p>
+            <button id="EC-btn"><a href="#">Sales Data</a></button>
+          </div>
+          <div class="col-sm-6">
+            <img src="./images/4.png" alt="" id="EC-img" />
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="./images/5.png" alt="" id="BS-img" />
+          </div>
+          <div class="col-sm-6">
+            <h1 id="BS-head">I'm Business!</h1>
+            <p id="BS-p">
+              Looking for CRM or Data resources <br />
+              to boost my business.
+            </p>
+            <button id="BS-btn">
+              <a href="./pricing.html">Business Plans</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page4">
+      <h1>
+        Join Growvy’s 50M+ Job Seeker <br />
+        Community & Get Hired Faster!
+      </h1>
+      <p>
+        “Build your profile, get noticed by top employers, and access exclusive
+        job <br />
+        opportunities tailored to your skills. Your next career move starts
+        here!”
+      </p>
+      <button><a href="./signin.html">Sign In</a></button>
+    </div>
+    <img src="./images/arrow.png" id="arrow-img" alt="" />
+    <div id="page5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1 id="ECO-head ">E-commerce Owner?</h1>
+            <p id="ECO-para">
+              Optimize your business with smart <br />
+              asset management, growth <br />
+              strategies, and cutting-edge <br />
+              solutions to boost sales and <br />
+              efficiency with Growvy!
+            </p>
+
+            <button id="ECO-btn">
+              <a href="#">Plans</a>
+            </button>
+          </div>
+          <div class="col-sm-6">
+            <img src="./images/6.png" alt="" id="ECO-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page6">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./images/7.png" alt="" id="footer-img" />
+          </div>
+          <div class="col-md-6">
+            <button><a href="#">Schedule Call Now</a></button>
+            <p>
+              Join over 10k users worldwide. <br />
+              Start scheduling in less than 1 <br />
+              minutes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="left-section">
+        <div class="logo">Growvy</div>
+        <div class="tagline">
+          Optimize your business with smart asset management, growth strategies,
+          and cutting-edge solutions to boost sales and efficiency with Growvy!
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #0866ff"></i>
+          </a>
+          <a
+            href="
+            https://www.instagram.com/"
+          >
+            <p id="instagram">
+              <i class="fa-brands fa-instagram fa-xl"></i>
+            </p>
+          </a>
+          <a
+            href="
+          https://www.linkedin.com/"
+            id="linkedin"
+          >
+            <i
+              class="fa-brands fa-linkedin fa-2xl"
+              style="color: #0077b5; border-radius: 100px"
+            ></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="middle-section">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./pricing.html">Plans & Pricing</a></li>
+          <li><a href="./services.html">Business Solutions</a></li>
+          <li><a href="./success.html">Success Stories</a></li>
+          <li><a href="./jobs.html">Jobs</a></li>
+        </ul>
+        <div class="stars">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <img src="./images/8.png" alt="Growth Arrow" />
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lexend", sans-serif;
+  }
+
+
+/* FOOTER STYLING  
+ */
+ .left-section {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 400px;
+    position: relative;
+    left: 10vw;
+  }
+
+  .logo {
+    font-size: 71px;
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: -0.5vh;
+    position: relative;
+    left: -4.5vw;
+  }
+
+  .tagline {
+    font-size: 19px;
+    color: #333;
+    text-align: left;
+    line-height: 1.4rem;
+    left: -4vw;
+    position: relative;
+  }
+
+  .middle-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: 4vw;
+    top: -2vh;
+  }
+
+  .middle-section ul {
+    list-style-type: disc;
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: 650;
+    color: #1a1a1a;
+    position: relative;
+    top: 9vh;
+  }
+
+  .stars {
+    color: limegreen;
+    font-size: 27px;
+    position: relative;
+    left: 9.9vw;
+    margin-top: 26px;
+    display: flex;
+  }
+
+  .right-section img {
+    width: 289px;
+    position: relative;
+    left: 11vw;
+  }
+
+  .jobs-footer {
+    display: flex;
+    position: relative;
+    top: -75vh;
+  }
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-top: 17px;
+    position: relative;
+    left: -4vw;
+  }
+
+  .social-icons a {
+    border-radius: 100px;
+    width: 30px;
+    color: black;
+  }
+  #instagram {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -0.5vh;
+  }
+  #instagram i {
+    color: white;
+    position: relative;
+    left: 0.5vw;
+    top: 0.9vh;
+ 
+  }
+   .middle-section a{
+  color: black;
+  text-decoration: none;
+}
+
+
+/* SCHEDULE NOW SECION  */
+
+#jobs-page6 p {
+  display: flex
+;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -44vh;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    left: -0.8vw;
+}
+#jobs-page6 button {
+position: relative;
+    top: -46vh;
+    border: none;
+    left: 9vw;
+    background-color: #04af09;
+    width: 43%;
+    height: 13%;
+    border-radius: 130px;
+    padding: 10px 10px;
+}
+
+#jobs-page6 button a {
+  text-decoration: none;
+  color: white;
+}
+
+#jobs-page6 button:hover {
+  background-color: #20cb26;
+  transition: 0.2s ease-in;
+}
+
+#jobs-page6 img {
+  position: relative;
+  top: -87vh;
+  left: 3vw;
+}
+/* ARROW SECTION  
+ */
+ #job-arrow-img {
+  position: relative;
+  top: -43vh;  left: 55vh;
+  width: 48%;
+}
+
+
+/* JOB SEEKER SECTION  */
+#jobs-page3 #JS-head {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.2rem;
+  line-height: 2rem;
+  position: relative;
+  top: -69vh;
+    left: 8.8vw;
+}
+#jobs-page3 #JS-p {
+  font-size: 1.2rem;
+  position: relative;
+  top: -67vh;
+  left: 9vw;
+}
+#jobs-page3 .js-btn{
+  background-color: #04af09;
+  color: white;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 30px;
+  border: none;
+  width: 36%;
+  left: 8.7vw;
+  top: -69vh;
+  height: 19%;
+  position: relative;
+}
+#jobs-page3 a {
+  color: white;
+  text-decoration: none;
+}
+#jobs-page3 .js-btn:hover {
+  background-color: #20cb26;
+  transition: 0.2s ease-in;
+}
+#JS-img {
+  width: 40%;
+  position: relative;
+  top: -72vh;
+  left: 13vw;
+}
+
+
+/* NAVBAR SECTION  */
+#jobs-page1 {
+  height: 15vh;
+  width: 79%;
+  margin: 0 auto;
+  border: 2.5px solid black;
+  border-radius: 30px;
+  margin-top: 3%;
+  position: relative;
+}
+
+#jobs-page1 nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#jobs-page1 nav ul li {
+  float: left;
+  list-style: none;
+}
+#jobs-page1 nav ul li a {
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 26px 23px;
+}
+
+
+/*  JOBS HEAD SECTION  */
+
+#jobs-page2 {
+  background-color: #e0f7e6;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  margin-top: 40px;
+  width: 100%;
+  height: 300px;
+}
+#jobs-page2 h1 {
+  font-size: 66px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10vh;
+}
+
+#jobs-page2 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 8vh;
+  text-align: center;
+}
+
+
+.line1{
+  width: 85%;
+  height: auto;
+  /* border: 2px solid; */
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 120px 20px 20px 60px;
+gap: 40px;
+text-align: center;
+font-weight: 700;
+}
+
+.line2{
+  width: 85%;
+  height: auto;
+margin: 2px 20px 20px 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;
+font-weight: 700;
+
+}
+.job-box{
+  border: 2px solid black;
+  border-radius: 17px;
+  padding: 12px 12px;
+  display: flex;
+  width: 35%;
+  height: 70px;
+
+}
+
+#jobs-page4 p {
+  display: flex
+  ;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 10vh;
+}
+#jobs-page4 button {
+  position: relative;
+  top: 10vh;
+  border: none;
+  left: 38vw;
+  background-color: #04af09;
+  width: 15%;
+  height: 15%;
+  border-radius: 130px;
+  padding: 10px 10px;
+}
+
+#jobs-page4 button a {
+  text-decoration: none;
+  color: white;
+}
+
+#jobs-page4 button:hover {
+  background-color: #20cb26;
+  transition: 0.2s ease-in;
+}
+
+#jobs-page4 h1{
+  position: relative;
+  top: 9vh;
+  margin-left: 18vw;
+}
+
+.box2
+{
+  margin-bottom: 15px;
+  width: 85%;
+  height: 30%;
+  border-radius: 50px;
+  border: 3px solid black;
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.container1{
+  width: 90%;
+  height: auto;
+  /* border: 2px solid; */
+margin: 10% 10% 10% 10%;
+
+}
+.container1 a{
+  margin: 10px 5px 6px 5px ;
+  padding: 10px 50px ;
+  text-decoration: none;
+  border: none;
+  background-color: #04af09;
+  border-radius:30px ;
+  color: white;
+  align-self: flex-start;
+}
+.container1 a:hover{
+   background-color: #20cb26;
+  transition: 0.2s ease-in;
+  
+}
+.container1 p{
+font-weight: 700;
+position: relative;
+top: 2.9vh;
+padding: 1px 1px 1px 20px;
+}
+
+.container1 h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

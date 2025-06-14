@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lexend", sans-serif;
+  }
+/* mobile view css */
+
+
+
+
+/* desktop css */
+
+
+
+/* HEADER/ NAVBAR SECTION */
+#page1 {
+    height: 15vh;
+    width: 79%;
+    margin: 0 auto;
+    border: 2.5px solid black;
+    border-radius: 30px;
+    margin-top: 3%;
+    position: relative;
+  }
+  
+  #page1 nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #page1 nav ul li {
+    float: left;
+    list-style: none;
+  }
+  #page1 nav ul li a {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 26px 23px;
+  }
+
+
+  #page1-content h1 span {
+    color: #04af09;
+    position: relative;
+    top: 13px;
+    letter-spacing: -0.1rem;
+  }
+  #page1-content h1 {
+    color: black;
+    font-size: 4.5rem;
+    letter-spacing: -0.4rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    font-family: raleway;
+    margin-top: 7%;
+    position: relative;
+    right: 3%;
+  }
+  #page1-content #growvy-img {
+    width: 53%;
+    height: 51%;
+    position: relative;
+    top: -231px;
+    margin-left: 50%;
+  }
+  #page1-content #with {
+    color: #04af09;
+    position: relative;
+    font-size: 2rem;
+    top: -635px;
+    left: 90px;
+    letter-spacing: -0.2rem;
+    font-weight: 600;
+  }
+  #oval-img {
+    position: relative;
+    top: -145vh;
+    width: 40%;
+    left: -80px;
+  }
+  #intro {
+    position: relative;
+    top: -158vh;
+    font-size: 1.1rem;
+    left: -44px;
+    line-height: 1.2rem;
+  }
+  #page1 button {
+    background-color: #04af09;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 12px;
+    border-radius: 30px;
+    border: none;
+    top: -158vh;
+      left: -3vw;
+    width: 20%;
+    height: 2%;
+    position: relative;
+  }
+  #page1 button a {
+    color: white;
+    text-decoration: none;
+  }
+  #page1 button:hover {
+    background-color: #20cb26;
+  }
+
+
+  /* GROWVY INTRO SECTION */
+  #page2 #line {
+    width: 19%;
+    border-radius: 20px;
+    height: 3vh;
+    position: relative;
+    top: 669px;
+    background-color: #04af09;
+    left: 73vw;
+  }
+  
+  #page2 p {
+    position: relative;
+    top: 693px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.13rem;
+  }
+  #page3 #JS-head {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.2rem;
+    line-height: 2rem;
+    position: relative;
+    top: 133vh;
+    left: 8.8vw;
+  }
+  #page3 #JS-p {
+    font-size: 1.2rem;
+    position: relative;
+    top: 133vh;
+    left: 9vw;
+  }
+  #page3 #JS-btn {
+    background-color: #04af09;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    width: 36%;
+    left: 8.7vw;
+    top: 838px;
+    height: 19%;
+    position: relative;
+  }
+  #page3 a {
+    color: white;
+    text-decoration: none;
+  }
+  #page3 #JS-btn:hover {
+    background-color: #20cb26;
+    transition: 0.2s ease-in;
+  }
+  #JS-img {
+    width: 40%;
+    position: relative;
+    top: 123vh;
+    left: 13vw;
+  }
+  #page3 #EC-head {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.2rem;
+    line-height: 3rem;
+    position: relative;
+    top: 136vh;
+    left: 8.8vw;
+  }
+  #page3 #EC-p {
+    font-size: 1.2rem;
+    position: relative;
+    top: 135vh;
+    left: 9vw;
+  }
+  #page3 #EC-btn {
+    background-color: #04af09;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    width: 32%;
+    left: 8.7vw;
+    top: 841px;
+    height: 15%;
+    position: relative;
+  }
+  #EC-img {
+    width: 40%;
+    position: relative;
+    top: 129vh;
+    left: 9vw;
+  }
+  
+  #page3 #EC-btn:hover {
+    background-color: #20cb26;
+    transition: 0.2s ease-in;
+  }
+  
+  #page3 #BS-head {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.2rem;
+    line-height: 3rem;
+    position: relative;
+    top: 137vh;
+  }
+  #page3 #BS-p {
+    font-size: 1.2rem;
+    position: relative;
+    top: 136vh;
+  }
+  #page3 #BS-btn {
+    background-color: #04af09;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    width: 32%;
+  
+    top: 847px;
+    height: 15%;
+    position: relative;
+  }
+  #BS-img {
+    width: 44%;
+    position: relative;
+    top: 127vh;
+    left: 12vw;
+  }
+  
+  #page3 #BS-btn:hover {
+    background-color: #20cb26;
+    transition: 0.2s ease-in;
+  }
+  
+  #page3 #EM-head {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.2rem;
+    line-height: 3rem;
+    position: relative;
+    top: 125vh;
+  }
+  #page3 #EM-p {
+    font-size: 1.2rem;
+    position: relative;
+    top: 125vh;
+  }
+  #page3 #EM-btn {
+    background-color: #04af09;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    width: 34%;
+    top: 782px;
+    height: 27%;
+    position: relative;
+  }
+  
+  #page3 #EM-btn:hover {
+    background-color: #20cb26;
+    transition: 0.2s ease-in;
+  }
+  
+  #EM-img {
+    width: 45%;
+    position: relative;
+    top: 125vh;
+    left: 13vw;
+  }
+  
+
+
+  /* JOIN THE COMMUNITY NOW SECTION */
+  #page4 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 137vh;
+    font-weight: 700;
+    font-size: 2.6rem;
+  }
+  
+  #page4 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 137vh;
+  }
+  #page4 button {
+    position: relative;
+    top: 136vh;
+    border: none;
+    left: 38vw;
+    background-color: #04af09;
+    width: 15%;
+    height: 15%;
+    border-radius: 130px;
+    padding: 10px 10px;
+  }
+  
+  #page4 button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #page4 button:hover {
+    background-color: #20cb26;
+    transition: 0.2s ease-in;
+  }
+  
+  #ECO-img {
+    width: 82%;
+    position: relative;
+    top: 92vh;
+    left: 3vw;
+  }
+  
+
+
+
+  /* E-COMMERCE OWNER SECCTION */
+  #page5 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 98vh;
+    font-weight: 600;
+    font-size: 2.6rem;
+    left: 13vh;
+  }
+  
+  #page5 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 97vh;
+    font-size: 1.2rem;
+    line-height: 1.48rem;
+    left: 1.2vw;
+  }
+  #page5 button {
+   position: relative;
+      top: 96vh;
+      border: none;
+      left: 9vw;
+      background-color: #04af09;
+      width: 31%;
+      height: 11%;
+      border-radius: 130px;
+      padding: 10px 10px;
+  }
+  
+  #page5 button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #page5 button:hover {
+    background-color: #20cb26;
+    transition: 0.2s ease-in;
+  }
+
+
+  /* ARROW IMG SECTION */
+  
+    #arrow-img {
+        position: relative;
+        top: 116vh;
+        left: 55vh;
+        width: 48%;
+      }
+  
+
+
+      /* SCHEDULE NOW SECTION  */
+      #page6 p {
+    display: flex
+  ;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 114vh;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      left: -0.8vw;
+  }
+  #page6 button {
+  position: relative;
+      top: 111vh;
+      border: none;
+      left: 9vw;
+      background-color: #04af09;
+      width: 43%;
+      height: 13%;
+      border-radius: 130px;
+      padding: 10px 10px;
+  }
+  
+  #page6 button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #page6 button:hover {
+    background-color: #20cb26;
+    transition: 0.2s ease-in;
+  }
+  
+  #page6 img {
+    position: relative;
+    top: 92vh;
+    left: 3vw;
+  }
+  
+  
+
+
+
+  /* FOOTER SECTION  */
+    .left-section {
+        display: flex;
+        flex-direction: column;
+  
+        max-width: 400px;
+        position: relative;
+        left: 10vw;
+      }
+  
+      .logo {
+        font-size: 71px;
+        font-weight: 600;
+        color: #1a1a1a;
+        letter-spacing: -0.5vh;
+        position: relative;
+        left: -4.5vw;
+      }
+  
+      .tagline {
+        font-size: 19px;
+        color: #333;
+        text-align: left;
+        line-height: 1.4rem;
+        left: -4vw;
+        position: relative;
+      }
+  
+      .middle-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        left: 4vw;
+        top: -2vh;
+      }
+  
+      .middle-section ul {
+        list-style-type: disc;
+        padding-left: 150px;
+        font-size: 20px;
+        font-weight: 650;
+        color: #1a1a1a;
+        position: relative;
+        top: 9vh;
+      }
+  
+      .stars {
+        color: limegreen;
+        font-size: 27px;
+        position: relative;
+        left: 9.9vw;
+        margin-top: 26px;
+        display: flex;
+      }
+  
+      .right-section img {
+        width: 289px;
+        position: relative;
+        left: 11vw;
+      }
+  
+      .footer {
+        display: flex;
+        position: relative;
+        top: 105vh;
+      }
+      .social-icons {
+        display: flex;
+        gap: 20px;
+        margin-top: 40px;
+        margin-top: 17px;
+        position: relative;
+        left: -4vw;
+      }
+  
+      .social-icons a {
+        border-radius: 100px;
+        width: 30px;
+        color: black;
+      }
+      #instagram {
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+  
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: -0.5vh;
+      }
+      #instagram i {
+        color: white;
+        position: relative;
+      left: 0.4vw;
+      top: 0.7vh;
+     
+      }
+       .middle-section a{
+      color: black;
+      text-decoration: none;
+    }

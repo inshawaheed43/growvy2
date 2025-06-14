@@ -1,0 +1,996 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./pricing.style.css">
+  </head>
+  <style>
+    @media only screen and  (min-width:360px) and (max-width: 428px) {
+        
+        #pricing-page6 button {
+            position: relative;
+        top: 190vw;
+        left: 111vw;
+        width: 71vw;
+        height: 10vh;
+      }
+
+      #pricing-page6 p {
+        position: relative;
+        top: 262vw;
+        left: 42vw;
+        text-align: center;
+        width: 112vw;
+      }
+      #pricing-page6 img {
+        position: relative;
+        top: 274vw;
+        left: 7vw;
+        text-align: center;
+      }
+      .pricing-footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 170vh;
+      }
+      .pricing-footer .left-section {
+        position: relative;
+        top: 38vh;
+        text-align: center;
+        left: 60vw;
+      }
+
+      .pricing-footer .social-icons {
+        left: 20vh;
+        top: 10vw;
+      }
+
+      .pricing-footer .middle-section {
+        position: relative;
+        top: 19vh;
+        left: -18vw;
+      }
+      .stars {
+        left: 106vw;
+        top: -12vh;
+      }
+      .right-section img {
+        left: 122vw;
+        top: -19vh;
+      }   
+      #pricing-page2{
+        width:202vw ;
+      }     
+      #pricing-page3, #pricing-page4, #pricing-page5 img{
+        position: relative;
+        left: 49vw;
+      }
+      .price-range{
+        display: flex;
+        flex-direction: column;
+      }
+
+      #pricing-page3 .cv-box1{
+        position: relative;
+        top: 79vh;
+        left: -43vw;
+        width: 75vw;
+        height: 75vh;
+      }
+
+      #pricing-page3 .lg-box1{
+        position: relative;
+        left: 43vw;
+        width: 75vw;
+        height: 75vh;
+      }
+      #pricing-page3 .rs-box1{
+        position: relative;
+        left: 0vw;
+        top: 11vh;
+        width: 75vw;
+        height: 75vh;
+      }
+      
+      #pricing-page4 .cv-box2{
+        position: relative;
+        top: 166vh;
+        left: -43vw;
+        width: 75vw;
+        height: 75vh;
+      }
+
+      #pricing-page4 .lg-box2{
+        position: relative;
+        left: 43vw;
+        top: 87vh;
+        height: 75vh;
+        width: 75vw;
+      }
+      #pricing-page4 .rs-box2{
+        position: relative;
+        left: 0vw;
+        width: 75vw;
+        height: 75vh;
+        top: 97vh;      }
+      #pricing-page4 img{
+        position: relative;
+        top: 91vh;
+      }
+      #pricing-page4 h1{
+        position: relative;
+        top: 90vh;
+    }
+    #pricing-page4 .main-p{
+        position: relative;
+        top: 90vh;
+    }
+    #pricing-page4 button{
+        position: relative;
+        top: 90vh;
+    }
+    #pricing-page5 img{
+        position: relative;
+        top: 181vh;
+      }
+      #pricing-page5 h1{
+        position: relative;
+        top: 180vh;
+        left: 47vw;
+    }
+    #pricing-page5 .main-p{
+        position: relative;
+        top: 179vh;
+        left: 48vw;
+    }
+    #pricing-page5 button{
+        position: relative;
+        top: 179vh;
+        left: 52vw;
+    }
+    #pricing-page5 .cv-box3{
+      height: 75vh;   position: relative;
+        top: 252vh;
+        left: 5vw;
+        width: 75vw;
+      }
+
+      #pricing-page5 .lg-box3{
+        position: relative;
+        left: 90vw;
+        height: 75vh;       width: 75vw;
+        top: 173vh;
+      }
+      #pricing-page5 .rs-box3{
+       
+        
+         position: relative;
+        left: 48vw;
+        width: 75vw;
+        height: 75vh;
+        top: 184vh;
+    }
+    .price-range h2{
+      position: relative;
+        top: 0vh;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    .price-range .cv-box1 p{
+      font-size: 12px;
+        position: relative;
+        top: -2vh;
+        left: -2vw;
+
+
+    }
+
+    .price-range .cv-box1 h3{
+      position: relative;
+      top: -4vh;
+    }
+    .price-range .lg-box1 h3{
+      position: relative;
+      top: -4vh;
+    }
+    .price-range .lg-box1 p{
+      font-size: 12px;
+        position: relative;
+        top: -2vh;
+        left: -2vw;
+    }
+
+
+
+
+
+.cv-box1 #benefits{
+  top: -8vh;
+}
+.lg-box1 #benefits{
+  top: -8vh;
+}
+.cv-box2 p{
+  font-size: 12px;
+  position: relative;
+  top: -1vh;
+
+}
+.cv-box2 h3{
+  position: relative;
+  top: -4vh;
+}
+.lg-box2 p{
+  font-size: 12px;
+  position: relative;
+         top: -1vh;
+
+}
+.lg-box2 h3{
+  position: relative;
+  top: -4vh;
+}
+.cv-box2 li{
+font-size: 12px;
+position: relative;
+top: -5vh;
+}
+.lg-box2 li{
+font-size: 12px;
+position: relative;
+top: -5vh;
+}
+
+.cv-box2 #benefits{
+position: relative;
+top: -7vh;
+}
+.lg-box2 #benefits{
+position: relative;
+top: -7vh;
+}
+
+#pricing-page4  .st-btn5{
+position: relative;
+top: -2.8vh;
+
+}
+
+.rs-box2 h2{
+text-align: center;
+
+}
+.rs-box2 p{
+position: relative;
+top: -1vh;
+font-size: 12px;
+}
+.rs-box3 h2{
+text-align: center;
+
+}
+.rs-box3 p{
+position: relative;
+top: -1vh;
+font-size: 12px;
+}
+
+.cv-box3 p{
+position: relative;
+top: -1vh;
+font-size: 12px;
+}
+
+.lg-box3 p{
+position: relative;
+top: -1vh;
+font-size: 12px;
+}
+.rs-box2 .sc-head2{
+position: relative;
+top: -4vh;
+}
+
+.rs-box2 li{
+font-size: 12px;
+position: relative;
+top: -5vh;
+}
+.rs-box2 #benefits{
+position: relative;
+top: -7vh;
+}
+.rs-box3 li{
+font-size: 12px;
+position: relative;
+top: -5vh;
+}
+.cv-box3 #sc-head3{
+position: relative;
+top: -3.5vh;
+}
+
+.lg-box3 #sc-head4{
+position: relative;
+top: -3.5vh;
+}
+.cv-box3  li{
+font-size: 12px;
+position: relative;
+top: -5vh;
+}
+.lg-box3  li{
+font-size: 12px;
+position: relative;
+top: -5vh;
+}
+.cv-box3 #benefits{
+position: relative;
+top: -7vh;
+}
+.lg-box3 #benefits{
+position: relative;
+top: -7vh;
+}
+.st-btn8{
+position: relative;
+top: -2.9vh;
+
+}
+.rs-box3 #benefits{
+position: relative;
+top: -7vh;
+}
+.rs-box3 .sc-head2{
+position: relative;
+top: -4vh;
+}
+.st-btn9{
+position: relative;
+top:-2vh;
+}
+.cv-box1 li{
+  font-size: 12px;
+  position:relative; 
+  top: -5vh;
+}
+
+.lg-box1 li{
+  font-size: 12px;
+  position:relative; 
+  top: -5vh;
+}
+.st-btn2{
+  position: relative;
+  top: -2vh;}
+
+  .st-btn1{
+    position: relative;
+    top: 0.8vh;
+  }
+  .rs-box1 h2{
+    text-align: center;
+  
+  }
+  .rs-box1 p{
+    text-align: center;
+          font-size: 12px;
+          position: relative;
+          top: -1vh;
+          left: -3vw;
+        
+        }
+  .sc h3{
+    position: relative;
+  top: -4vh;
+  }
+  .rs-box1 li{
+    position: relative;
+          top: -5vh;
+          font-size: 12px;
+  }
+  .ben-sec #benefits{
+    position: relative;
+    top: -7vh;
+  }
+  .st-btn3{
+    top: -3vh;
+          position: relative;
+          display: grid;
+          left: 1vw;
+  
+  }
+    }
+
+    @media only screen and  (min-width: 600px ) and (max-width: 720px){
+#pricing-page2{
+  width: 144vw;
+}
+#pricing-page3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 24vw;
+}
+#pricing-page3 .price-range p{
+  font-size: 12px;
+  position: relative;
+  top: -2vh;
+
+}
+#pricing-page3 li{
+  font-size: 12px;
+ 
+position: relative;
+top: -2vh;
+}
+.cv-box1 h2
+{
+  position: relative;
+        top: -2vh;
+
+        line-height: 1rem;
+}
+.lg-box1 h2
+{
+  position: relative;
+        top: -2vh;
+
+        line-height: 1rem;
+}
+
+.rs-box1 h2
+{
+  position: relative;
+        top: -2vh;
+
+        line-height: 1rem;
+}
+#pricing-page3 .price-range{
+  width: 131vw;
+}
+
+.price-range h3{
+  position: relative;
+  top: -2vh;
+}
+.price-range .ben-sec li{
+  line-height: 0.7rem;
+}
+.price-range #benefits{
+  position: relative;
+  top: -4vh;
+}
+.price-range .st-btn1{
+top: 5vh;
+
+}
+.price-range .st-btn2{
+top:2vh ;
+
+}
+
+#pricing-page4
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 24vw;
+}
+#pricing-page4 .price-range{
+  width: 131vw;
+}
+#pricing-page4 .price-range h2{
+  top: -2vh;
+}
+#pricing-page4 .price-range p{
+  font-size: 12px;
+  position: relative;
+  top: -2vh;
+
+}
+#pricing-page4 li{
+  font-size: 12px;
+position: relative;
+top: -2vh;
+}
+.price-range .ben-sec2 li{
+  line-height: 0.7rem;
+}
+
+.price-range .st-btn4{
+  top: 5vh;
+}
+
+.price-range .st-btn5{
+  top: 2vh;
+}
+.price-range .st-btn6{
+  top: 1vh;
+}
+
+
+
+
+
+#pricing-page5
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 24vw;
+}
+#pricing-page5 .price-range{
+  width: 131vw;
+}
+#pricing-page6 p{
+  top: -75vh;
+  text-align: center;
+  left: 24vw;
+}
+#pricing-page6 button{
+  width: 57vw;
+        height: 10vh;
+        top: -114vw;
+        left: 75vw;
+}
+#pricing-page5 .price-range h2{
+  top: -2vh;
+}
+#pricing-page5 .price-range p{
+  font-size: 12px;
+  position: relative;
+  top: -2vh;
+
+}
+#pricing-page5 .price-range li{
+  font-size: 12px;
+position: relative;
+top: -2vh;
+}
+
+.price-range .rs-box3 #benefits-list li{
+  line-height: 0.6rem;}
+.price-range .st-btn7{
+  position: relative;
+  top: 5vh;
+}
+.price-range .st-btn8{
+  top: 2vh;
+
+}
+.price-range .st-btn9{
+  top: 1vh;
+
+}
+    }
+ 
+  </style>
+  <body>
+
+    <div id="page1">
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./jobs.html">Jobs</a></li>
+            <li><a href="./success.html">Success</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+          </ul>
+        </nav>
+     
+        </div>
+    <div id="pricing-page2">
+  <h1>Pricing</h1>
+  <p>"Discover flexible pricing plans tailored to your needs—start growing with us today!"</p>
+  </div>
+  <div id="pricing-page3">
+    <img src="./images/13 (1).png" alt="">
+    <h1>Recruitment Solution</h1>
+    <p class="main-p">"Unlock seamless hiring with our tailored Recruitment Plans—flexible pricing designed to
+  find your perfect talent, fast!"</p>
+  <button><a href="./pricing.html">Plans</a></button>
+  
+  <div class="price-range">
+  
+    <div class="box cv-box1" >
+      
+      <h2>Basic CV Services</h2>
+    <p>Companies HR who are looking for
+  a candidate pool to shortlist them
+  with possible filters can access our
+  database to reduce their
+  headache to post jobs on different
+  job portals.</p>
+  
+  <h3>Service Cost</h3>
+  
+  <ul><li>Price 30$ (9797 PKR) Discount
+  20$ (5600 PKR) Monthly</li>
+  
+  </ul>
+  
+  
+  <h3 id="benefits" class="benefits1">Benefits</h3>
+  
+  <ul id="benefits-list"><li>Companies Can access the
+  database with monthly 200
+  Searches</li>
+  <li>Manage Filters Like Skills, Cities,
+  Experience etc</li>
+  
+  <li>Live chat experts help</li></ul>
+  <buttton class="start-today-btn st-btn1">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+    <div class="box lg-box1"><h2>Lead Generating</h2>
+    <p>Companies will directly get
+  qualifying responses in their chat
+  to schedule interviews at their own
+  place and our service charges will
+  apply on the candidate's approch.</p>
+  
+  <h3>Service Cost</h3>
+  
+  <ul><li>Price 50$ (6998 PKR)
+  (50$ will apply per 20 Candidates)</li>
+  
+  </ul>
+  
+  
+  <h3 id="benefits" class="benefits1">Benefits</h3>
+  
+  <ul id="benefits-list"><li>Companies Can create a job
+  post on Growvy</li>
+  <li>Manage Filters Like Skills, Cities,
+  Experience etc</li>
+  <li>Guide our Team to shortlist
+  best candidates</li>
+  <li>Live chat experts help</li></ul>
+  <buttton class="start-today-btn st-btn2">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+    <div class="box rs-box1"><h2>Recruitment Service</h2>
+    <p>Our recruitment specialist will 
+  connect with companies HR Team 
+  and plan a complete hiring 
+  strategy to make their hire quick
+  <br>
+  and fast.</p>
+  <div class="sc">
+    <h3>Service Cost</h3>
+    <ul><li>Price 40% of first Salary (For Experienced)</li>
+    <li>(Can avail this package after
+    one subscription)</li></ul>
+
+  </div>
+  <div class="ben-sec">
+
+    <h3 id="benefits" class="benefits1">Benefits</h3>
+    <ul id="benefits-list"><li>Client can create a job post.</li>
+    <li>Filters Like Skills, Cities, Exp etc</li>
+    <li>Minor screening interview</li>
+    <li>Whatsapp group with Team</li>
+    <li>Complete A-Z hiring solution</li></ul>
+  </div>
+  <buttton class="start-today-btn st-btn3">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+  </div>
+  </div>
+     <div id="pricing-page4">
+    <img src="./images/14.png" alt="">
+    <h1>E-commerce Solution</h1>
+    <p class="main-p">"Boost your online store with our E-commerce Plans—affordable pricing crafted to scale
+  <br>
+  your business effortlessly!"</p>
+  <button><a href="./pricing.html">Plans</a></button>
+  <div class="price-range">
+  
+    <div class="box cv-box2" ><h2>Basic CV Services</h2>
+
+    <p>Companies HR who are looking for
+  a candidate pool to shortlist them
+  with possible filters can access our
+  database to reduce their
+  headache to post jobs on different
+  job portals.</p>
+ 
+
+    <h3>Service Cost</h3>
+    <ul><li>Price 30$ (9797 PKR) Discount
+    20$ (5600 PKR) Monthly</li>
+    
+    </ul>
+    
+
+  
+  
+  <h3 id="benefits" class="benefits2">Benefits</h3>
+  
+  <ul id="benefits-list"><li>Companies Can access the
+  database with monthly 200
+  Searches</li>
+  <li>Manage Filters Like Skills, Cities,
+  Experience etc</li>
+  
+  <li>Live chat experts help</li></ul>
+  <buttton class="start-today-btn st-btn4">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+  
+    <div class="box lg-box2"><h2>Lead Generating</h2>
+    <p>Companies will directly get 
+  qualifying responses in their chat 
+  to schedule interviews at their own 
+  place and our service charges will 
+  apply on the candidate's approch.</p>
+  
+  <h3>Service Cost</h3>
+  
+  <ul><li>Price 50$ (6998 PKR)
+  (50$ will apply per 20 Candidates)</li>
+  
+  </ul>
+  <h3 id="benefits" class="benefits2" >Benefits</h3>
+  
+  <ul id="benefits-list"><li>Companies Can create a job
+  post on Growvy</li>
+  <li>Manage Filters Like Skills, Cities,
+  Experience etc</li>
+  <li>Guide our Team to shortlist
+  best candidates</li>
+  <li>Live chat experts help</li></ul>
+  <buttton class="start-today-btn st-btn5">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+
+  
+  
+    <div class="box rs-box2"><h2>Recruitment Service</h2>
+    <p>Our recruitment specialist will 
+  connect with companies HR Team 
+  and plan a complete hiring 
+  strategy to make their hire quick
+  
+  and fast.</p>
+  <h3 class="sc-head2">Service Cost</h3>
+  <ul><li>Price 40% of first Salary (For Experienced)</li>
+  <li>(Can avail this package after
+  one subscription)</li></ul>
+  <h3 id="benefits">Benefits</h3>
+  <ul id="benefits-list" class="ben-sec2"><li>Client can create a job post.</li>
+  <li>Filters Like Skills, Cities, Exp etc</li>
+  <li>Minor screening interview</li>
+  <li>Whatsapp group with Team</li>
+  <li>Complete A-Z hiring solution</li></ul>
+  <buttton class="start-today-btn st-btn6">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+  </div>
+</div>
+
+  <div id="pricing-page5">
+    <img src="./images/5.png" alt="">
+    <h1>Business Solution</h1>
+    <p class="main-p">"Boost your online store with our E-commerce Plans—affordable pricing crafted to scale
+  <br>
+  your business effortlessly!"</p>
+  <button><a href="./pricing.html">Plans</a></button>
+  <div class="price-range">
+  
+    <div class="box cv-box3" ><h2>Basic CV Services</h2>
+    <p>Companies HR who are looking for
+  a candidate pool to shortlist them
+  with possible filters can access our
+  database to reduce their
+  headache to post jobs on different
+  job portals.</p>
+  
+  <h3 id="sc-head3"> Service Cost</h3>
+  
+  <ul><li>Price 30$ (9797 PKR) Discount
+  20$ (5600 PKR) Monthly</li>
+  
+  </ul>
+  
+  
+  <h3 id="benefits">Benefits</h3>
+  
+  <ul id="benefits-list"><li>Companies Can access the
+  database with monthly 200
+  Searches</li>
+  <li>Manage Filters Like Skills, Cities,
+  Experience etc</li>
+  
+  <li>Live chat experts help</li></ul>
+  <buttton class="start-today-btn st-btn7">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+  
+    <div class="box lg-box3"><h2>Lead Generating</h2>
+    <p>Companies will directly get 
+  qualifying responses in their chat 
+  to schedule interviews at their own 
+  place and our service charges will 
+  apply on the candidate's approch.</p>
+  
+  <h3 id="sc-head4">Service Cost</h3>
+  
+  <ul><li>Price 50$ (6998 PKR)
+  (50$ will apply per 20 Candidates)</li>
+  
+  </ul>
+  
+  
+  <h3 id="benefits">Benefits</h3>
+  
+  <ul id="benefits-list"><li>Companies Can create a job
+  post on Growvy</li>
+  <li>Manage Filters Like Skills, Cities,
+  Experience etc</li>
+  <li>Guide our Team to shortlist
+  best candidates</li>
+  <li>Live chat experts help</li></ul>
+  <buttton class="start-today-btn st-btn8">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+  
+    <div class="box rs-box3"><h2>Recruitment Service</h2>
+    <p>Our recruitment specialist will <br>
+  connect with companies HR Team <br>
+  and plan a complete hiring <br>
+  strategy to make their hire quick
+  <br>
+  and fast.</p>
+  <h3 class="sc-head2">Service Cost</h3>
+  <ul><li>Price 40% of first Salary (For Experienced)</li>
+  <li>(Can avail this package after
+  one subscription)</li></ul>
+  <h3 id="benefits">Benefits</h3>
+  <ul id="benefits-list"><li>Client can create a job post.</li>
+  <li>Filters Like Skills, Cities, Exp etc</li>
+  <li>Minor screening interview</li>
+  <li>Whatsapp group with Team</li>
+  <li>Complete A-Z hiring solution</li></ul>
+  <buttton class="start-today-btn st-btn9">
+    <a href="./services.html">Start Today</a>
+  </buttton>
+  </div>
+  </div>
+  
+  </div>
+
+
+
+
+
+
+
+
+   <div id="pricing-page6">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./images/7.png" alt="" id="footer-img" />
+            </div>
+            <div class="col-md-6">
+              <button><a href="#">Schedule Call Now</a></button>
+              <p>
+                Join over 10k users worldwide. <br />
+                Start scheduling in less than 1 <br />
+                minutes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="pricing-footer">
+        <div class="left-section">
+          <div class="logo">Growvy</div>
+          <div class="tagline">
+            Optimize your business with smart asset management, growth strategies,
+            and cutting-edge solutions to boost sales and efficiency with Growvy!
+          </div>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook fa-2xl" style="color: #0866ff"></i>
+            </a>
+            <a
+              href="
+            https://www.instagram.com/"
+            >
+              <p id="instagram">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </p>
+            </a>
+            <a
+              href="
+          https://www.linkedin.com/"
+              id="linkedin"
+            >
+              <i
+                class="fa-brands fa-linkedin fa-2xl"
+                style="color: #0077b5; border-radius: 100px"
+              ></i>
+            </a>
+          </div>
+        </div>
+  
+        <div class="middle-section">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./pricing.html">Plans & Pricing</a></li>
+            <li><a href="./services.html">Business Solutions</a></li>
+            <li><a href="./success.html">Success Stories</a></li>
+            <li><a href="./jobs.html">Jobs</a></li>
+          </ul>
+          <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+  
+        <div class="right-section">
+          <img src="./images/8.png" alt="Growth Arrow" />
+        </div>
+      </div>
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

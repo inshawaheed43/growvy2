@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./services.style.css" />
+  </head>
+  <style>
+    @media only screen and (min-width: 360px) and (max-width: 428px) {
+      #services-page2 {
+        background-color: #e0f7e6;
+        border-bottom-left-radius: 50% 20%;
+        border-bottom-right-radius: 50% 20%;
+        position: relative;
+        width: 231vw;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        /* width: auto; */
+        gap: 88px;
+        align-items: center;
+        justify-content: center;
+      }
+      .box1 {
+        width: 105%;
+        height: 30%;
+        margin-bottom: 75px;
+        position: relative;
+        left: 64vw;
+        top: 48vh;
+      }
+      .box1 img {
+        position: relative;
+        width: 38%;
+        height: 64%;
+      }
+
+      .box1 button {
+        top: -8vh;
+      }
+      .box1 p {
+        text-align: center;
+        position: relative;
+        top: -11vh;
+      }
+
+      .networking-head {
+        top: 87vh;
+        position: relative;
+        text-align: center;
+        width: 230%;
+      }
+      #view-pricing-btn {
+        left: 77vw;
+        top: 89vh;
+      }
+      #services-page3 .ph {
+        position: relative;
+        top: 147vh;
+        width: 250%;
+        text-align: center;
+        left: 26vw;
+      }
+      .ph p {
+        position: relative;
+        width: 138vw;
+        left: 20vw;
+      }
+      .ph #ph-head {
+        text-align: center;
+        position: relative;
+        top: 23vh;
+        left: -60vw;
+      }
+      #services-page3 .PH-img {
+        position: relative;
+        left: 19vw;
+        top: 50vh;
+      }
+      .gs h1 {
+        position: relative;
+        top: 85vh;
+        left: 116vw;
+      }
+      #services-page3 .gs p {
+        text-align: right;
+        width: 138vw;
+        top: 51vh;
+        left: -27vw;
+        position: relative;
+      }
+      #services-page3 .gs-img {
+        position: relative;
+        top: 80vh;
+        left: 17vw;
+      }
+      .gs #gs-btn {
+        top: 50vh;
+        left: 35vw;
+        height: 11vh;
+        width: 85vw;
+      }
+      #services-page3 .ec-img {
+        position: relative;
+        top: -1vh;
+        left: 16vw;
+      }
+
+      .ec {
+        position: relative;
+        top: 140vh;
+      }
+      .ec h1 {
+        width: 172vw;
+        position: relative;
+        left: -20vw;
+      }
+      .ec p {
+        position: relative;
+        left: 69vw;
+        width: 121vw;
+        top: -31vh;
+      }
+
+      #services-page6 button {
+        position: relative;
+        top: -68vw;
+        left: 126vw;
+        width: 71vw;
+        height: 10vh;
+      }
+
+      #services-page6 p {
+        position: relative;
+        top: -8vw;
+        left: 47vw;
+        text-align: center;
+        width: 100vw;
+      }
+      #services-page6 img {
+        position: relative;
+        top: -1vw;
+        left: 7vw;
+        text-align: center;
+      }
+      #services-footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -40vh;
+      }
+      #services-footer .left-section {
+        position: relative;
+        top: 38vh;
+        text-align: center;
+        left: 60vw;
+      }
+
+      #services-footer .social-icons {
+        left: 26vh;
+        top: 16vw;
+      }
+
+      #services-footer .middle-section {
+        position: relative;
+        top: 27vh;
+        left: -8vw;
+      }
+      .stars {
+        left: 106vw;
+        top: -25vh;
+      }
+      .right-section img {
+        left: 122vw;
+        top: -19vh;
+      }
+      #services-page3 .wgs-img {
+        position: relative;
+        top: 41vh;
+        left: 15vw;
+      }
+
+      #services-page3 .wgs-head {
+        position: relative;
+        top: 44vh;
+        left: 101vw;
+      }
+
+      #services-page3 .wgs-p {
+        width: 126vw;
+        text-align: right;
+        left: -32vw;
+        position: relative;
+        top: 11vh;
+      }
+      #services-page3 .wgs-btn {
+        width: 85vw;
+        top: 12vh;
+        left: 24vw;
+      }
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 720px) {
+      #services-page2 {
+        width: 144%;
+      }
+      .box1 {
+        width: 34vw;
+        left: 22vw;
+        position: relative;
+        top: -23vh;
+      }
+      .box1 p {
+        font-size: 14px;
+      }
+      .box1 .pbtn1 {
+        position: relative;
+        top: -2vh;
+      }
+      .networking-head {
+        top: -40vh;
+        position: relative;
+        left: 22vw;
+        text-align: center;
+      }
+      #view-pricing-btn {
+        top: -40vh;
+        left: 48vw;
+      }
+      #services-page3 #ph-head {
+        top: -20vh;
+        position: relative;
+        left: -16vw;
+      }
+      #services-page3 .PH-img {
+        top: -77vh
+;
+        position: relative;
+        left: 42vw;
+      }
+      #services-page3 .ph-p {
+        top: -22vh;
+        position: relative;
+        left: -16vw;
+      
+      }
+      #services-page3 .gs-heading{
+        top: -158vh;
+        left: 37vw;
+        text-align: end;
+
+      }
+      #services-page3 .gs-img{
+
+        top: -66vh;
+        position: relative;
+        left: -25vw;
+}
+#services-page3 .gs p{
+  top: -158vh;
+        position: relative;
+        left: 49vw;
+
+}
+#services-page3 #gs-btn{
+  top: -156vh;
+        position: relative;
+        left: 71vw;
+}
+
+#services-page3 .ec {
+  top: -148vh;
+        position: relative;
+        left: -16vw;
+        width: 71vw;
+        z-index: 1;
+}
+#services-page3 .ec-img{
+  top: -208vh;
+        position: relative;
+        left: 50vw;
+}
+#services-page3 .wgs-btn{
+  position: relative;
+        top: -282vh;
+        left: 20vh;
+        width: 55vw;
+}
+#services-page3 .wgs-p{
+  position: relative;
+        top: -287vh;
+        left: 63vh;
+}
+#services-page3 .wgs-img{
+  position: relative;
+        top: -208vh;
+        left: -22vh;
+    }
+
+#services-page3 .wgs-head{
+  position: relative;
+        top: -288vh;
+        left: 46vw;
+    }
+
+#services-page6 img{
+  position: relative;
+  top: -268vh;
+}
+
+#services-page6 p{
+  position: relative;
+        top: -273vh;
+        left: 23vw;
+        text-align: center;
+}
+#services-page6 button{
+  position: relative;
+        top: -310vh;
+        width: 48vw;
+        height: 10vh;
+        left: 81vw;
+
+}
+#services-footer{
+  position: relative;
+  top: -269vh;
+}
+#services-footer .stars{
+  position: relative;
+  left: 22vw;
+}
+
+
+
+}
+  </style>
+
+  <body>
+    <div id="page1">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./jobs.html">Jobs</a></li>
+          <li><a href="./success.html">Success</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="services-page2">
+      <h1>Services</h1>
+      <p>
+        "At Growvy, we provide innovative, cost-effective solutions to help
+        businesses and
+        <br />
+        professionals thrive."
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="box1">
+        <img src="./images/13 (1).png" alt="" />
+        <h3>Hiring</h3>
+        <p>
+          Access a vast talent pool <br />
+          to hire the right <br />
+          candidates quickly and
+          <br />
+          affordably.
+        </p>
+        <button class="plan-btn pbtn1">
+          <a href="#">Plans</a>
+        </button>
+      </div>
+
+      <div class="box1">
+        <img src="./images/14.png" alt="" />
+        <h3>E-commerce</h3>
+        <p>
+          Drive expansion with <br />
+          targeted strategies and <br />
+          market-driven solutions.
+        </p>
+
+        <button class="plan-btn">
+          <a href="#">Plans</a>
+        </button>
+      </div>
+
+      <div class="box1">
+        <img src="./images/5.png" alt="" />
+        <h3>Business</h3>
+        <p>
+          Optimize and manage <br />
+          business resources with <br />
+          data-backed insights
+        </p>
+
+        <button class="plan-btn">
+          <a href="#">Plans</a>
+        </button>
+      </div>
+    </div>
+    <h1 class="networking-head">Join over 10k users worldwide</h1>
+    <button id="view-pricing-btn">
+      <a href="./pricing.html">View Pricing</a>
+    </button>
+
+    <div id="services-page3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="ph">
+              <h1 id="ph-head">
+                Problems in <br />
+                Hiring
+              </h1>
+              <p class="ph-p">
+                Companies spend high $$$ budgets on job portals like Indeed and
+                LinkedIn, only to receive low-quality CVs and irrelevant
+                applicants, making hiring slow and inefficient.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="./images/9.png" alt="" class="PH-img" />
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./images/10.png" alt="" class="gs-img" />
+          </div>
+          <div class="col-md-6">
+            <div class="gs">
+              <h1 class="gs-heading">With Growvy Solution</h1>
+              <p>
+                With Growvy, businesses can access a database of active job
+                seekers who have recently joined for job search. Use advanced
+                filters to find the right candidates quickly and at a fraction
+                of the cost—no wasted budget, just quality hires!
+              </p>
+              <button id="gs-btn">
+                <a href="./pricing.html">Start Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="ec">
+              <h1>
+                E-commerce <br />
+                Business
+              </h1>
+              <p>
+                E-commerce businesses struggle <br />
+                with high marketing costs, <br />
+                inefficient operations, and slow <br />
+                growth, making it difficult to scale <br />
+                and maximize profits.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="./images/11.png" alt="" class="ec-img" />
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./images/12.png" alt="" class="wgs-img" />
+          </div>
+          <div class="col-md-6">
+            <h1 style="text-align: right" class="gs-heading wgs-head">
+              With Growvy Solution
+            </h1>
+            <p style="text-align: right" class="wgs-p">
+              Growvy helps e-commerce <br />
+              businesses streamline operations, manage assets, and implement
+              smart growth strategies to boost sales and efficiency—all at a low
+              cost with proven results.
+            </p>
+            <button class="wgs-btn">
+              <a href="./pricing.html">Start Now</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services-page6">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./images/7.png" alt="" id="footer-img" />
+          </div>
+          <div class="col-md-6">
+            <button><a href="#">Schedule Call Now</a></button>
+            <p>
+              Join over 10k users worldwide. <br />
+              Start scheduling in less than 1 <br />
+              minutes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services-footer">
+      <div class="left-section">
+        <div class="logo">Growvy</div>
+        <div class="tagline">
+          Optimize your business with smart asset management, growth strategies,
+          and cutting-edge solutions to boost sales and efficiency with Growvy!
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #0866ff"></i>
+          </a>
+          <a
+            href="
+            https://www.instagram.com/"
+          >
+            <p id="instagram">
+              <i class="fa-brands fa-instagram fa-xl"></i>
+            </p>
+          </a>
+          <a
+            href="
+          https://www.linkedin.com/"
+            id="linkedin"
+          >
+            <i
+              class="fa-brands fa-linkedin fa-2xl"
+              style="color: #0077b5; border-radius: 100px"
+            ></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="middle-section">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./pricing.html">Plans & Pricing</a></li>
+          <li><a href="./services.html">Business Solutions</a></li>
+          <li><a href="./success.html">Success Stories</a></li>
+          <li><a href="./jobs.html">Jobs</a></li>
+        </ul>
+        <div class="stars">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <img src="./images/8.png" alt="Growth Arrow" />
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
